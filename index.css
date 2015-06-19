@@ -1,0 +1,59 @@
+
+body{
+font-family: 'Open Sans', sans-serif;
+background-color: #000000;
+}
+
+#wrapper{
+margin:auto;
+padding: 20px; 
+width: 600px;
+}
+
+#name img{
+width: 75%
+}
+
+#generator{
+margin:30px ;
+color: white;
+text-align:center;
+padding:50px 0 50px;
+}
+
+#placeHolder{
+font-size: 55px;
+padding-bottom: 40px;
+}
+button{
+	background-color: #6fce0b;
+}
+
+#bear{
+	width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+
+#wrapper {
+			width: 400px;
+		}
+#placeHolder{
+	font-size: 35px;
+}
+button{
+	width: 80%;
+}
+img{
+	width: 70%;
+}
+}
+@media screen and (max-width: 430px){
+	
+#wrapper {
+			width: 325px;
+		}
+}
+
+
+
