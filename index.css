@@ -1,13 +1,30 @@
 
 body{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans'"","" sans-serif;
 background-color: #000000;
+}
+
+h1{
+color: #CCCCCC;
+font-family: 'Frijole', cursive;
+padding-bottom: 10px;
+}
+
+#ads{
+position: absolute;
+left: 0px;
+height: 600px;
+padding:150px 50px 30px;
+
 }
 
 #wrapper{
 margin:auto;
-padding: 20px; 
-width: 600px;
+padding-top: 30px; 
+padding-left: 170px;
+width: 500px;
+height: 500px;
+
 }
 
 #name img{
@@ -15,7 +32,6 @@ width: 75%
 }
 
 #generator{
-margin:30px ;
 color: white;
 text-align:center;
 padding:50px 0 50px;
@@ -33,17 +49,43 @@ button{
 	width: 50%;
 }
 
+#footer, p{
+	color: #CCCCCC;
+	font-size: 12px;
+	background-color: #000000;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	font-family: 'Yantramanav', sans-serif;
+	width:100%;
+	position:static;
+	bottom:0px;
+	left:0;
+}
+
 @media screen and (max-width: 650px) {
 
 #wrapper {
-			width: 400px;
-		}
+	width: 400px;
+	height: 400px;
+	padding-left: 80px;
+}
+#ads{
+	 height: 500px;
+	 width: 145px;
+	 padding:150px 5px 30px;
+}
 #placeHolder{
 	font-size: 35px;
 }
+
+h1{
+	font-size: 25px;
+}
+
 button{
 	width: 80%;
 }
+
 img{
 	width: 70%;
 }
@@ -51,8 +93,20 @@ img{
 @media screen and (max-width: 430px){
 	
 #wrapper {
-			width: 325px;
-		}
+	width: 335px;
+}
+
+h1{
+	font-size: 20px;
+}
+#ads{
+	 padding:150px 5px 30px;
+	  width: 105px;
+	  height: 400px;
+}
+#footer{
+	position: static;
+	bottom: 2px;
 }
 
 
