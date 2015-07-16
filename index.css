@@ -14,8 +14,13 @@ padding-bottom: 10px;
 position: absolute;
 left: 0px;
 height: 600px;
-padding:150px 50px 30px;
+padding:20px 50px 30px;
 
+}
+#adflash{
+position: absolute;
+left: 0px;
+padding:0px 50px 30px;
 }
 
 #wrapper{
@@ -38,8 +43,9 @@ padding:50px 0 50px;
 }
 
 #placeHolder{
-font-size: 55px;
+font-size: 50px;
 padding-bottom: 40px;
+padding-top: 30px;
 }
 button{
 	background-color: #6fce0b;
@@ -65,14 +71,20 @@ button{
 @media screen and (max-width: 650px) {
 
 #wrapper {
-	width: 400px;
-	height: 400px;
+	width: 450px;
+	height: 450px;
 	padding-left: 80px;
+}
+h1{
+	padding-left: 15px;
 }
 #ads{
 	 height: 500px;
 	 width: 145px;
-	 padding:150px 5px 30px;
+	 padding:20px 5px 30px;
+}
+#adflash{
+	padding:0px 0px 0px;
 }
 #placeHolder{
 	font-size: 35px;
@@ -82,13 +94,39 @@ h1{
 	font-size: 25px;
 }
 
-button{
-	width: 80%;
-}
 
 img{
-	width: 70%;
+	width: 75%;
 }
+}
+@media screen and (max-width: 530px){
+	
+#wrapper {
+	width: 375px;
+}
+
+h1{
+	width: 75%;
+}
+#ads{
+	 padding:20px 5px 30px;
+	  width: 105px;
+	  height: 400px;
+}
+#adflash{
+	padding:0px 0px 0px;
+}
+
+#placeHolder{
+font-size: 25px;
+}
+	button{
+	width: 60%;
+	
+	}
+#footer{
+	position: static;
+	bottom: 2px;
 }
 @media screen and (max-width: 430px){
 	
@@ -97,13 +135,24 @@ img{
 }
 
 h1{
-	font-size: 20px;
+	width: 70%;
 }
 #ads{
-	 padding:150px 5px 30px;
+	 padding:20px 5px 30px;
 	  width: 105px;
 	  height: 400px;
 }
+#adflash{
+	padding:0px 0px 0px;
+}
+
+#placeHolder{
+font-size: 25px;
+}
+	button{
+	width: 60%;
+	
+	}
 #footer{
 	position: static;
 	bottom: 2px;
